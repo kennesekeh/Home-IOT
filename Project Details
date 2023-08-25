@@ -1,0 +1,6 @@
+This project is designed around an ESP32 used as a hub controller for an entire household.
+In typical use cases, a household consumes power as appliances and utilities are left running even when they are not needed. for example, a fan running in an empty room or lights turned on at night. This extra consumption seems arbitrary but adds up and becomes compelling when running off a limited power source like an inverter.
+
+To solve this, a very low power computer - like a microcontroller can be used to time devices that require a sleep timer, or don't need to run all the time. For example a refrigerator or a water pump. It can also be programmed to turn on/off lights at specific times, control fan speeds from a seperate room or control all house appliances remotely.
+
+The purpose of this system is to save power during a power outage, a time when the inverter will be running. It can turn on or off appliances as needed, when needed.
